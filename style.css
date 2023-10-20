@@ -1,0 +1,52 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+.reel-container{
+    width: 350px;
+    /* background-color: blue; */
+    align-items: center;
+    margin: 0px 450px;
+    /* border: 2px solid black; */
+
+}
+.profile-container{
+    width: 100%;
+    box-sizing: border-box;
+    /* background-color: red;  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-name{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image{
+    width: 30px;
+    height: 40px;
+    border-radius:100%;
+    object-fit: cover;
+    margin: 2px;
+}
+.dots{
+    width: 30px;
+    /* background-color: white; */
+}
+.desk{
+    margin-top: -20px;
+}
+.vi{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+.like-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    }
+.like{
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+}
